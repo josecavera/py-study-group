@@ -1,0 +1,108 @@
+body {
+  background: #0d1117;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex {
+  background: #21262d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1em auto;
+  width: 60%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 2px solid #c9d1d9;
+  border-radius: 1.5em;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header {
+  padding: 1em;
+}
+
+header a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+header a img {
+  width: 40px;
+  height: 40px;
+}
+
+.busqueda {
+  padding: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.busqueda #user {
+  padding: .5em;
+  border-radius: .5em;
+  border: none;
+}
+
+.busqueda #buscar {
+  padding: .5em;
+  background: #288636;
+  border: 1px solid #2ea043;
+  color: white;
+  border-radius: .5em;
+  width: 15em;
+}
+
+.resultado {
+  padding: 1em;
+}
+
+.resultado img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.no-encontrado {
+  padding: 1em;
+}
+
+.no-encontrado .ups {
+  font-size: 5em;
+  color: #29ee4d;
+}
+
+footer {
+  padding: 1em;
+}
+
+footer a {
+  color: #29ee4d;
+  text-decoration: none;
+}
+/*# sourceMappingURL=estilo.css.map */

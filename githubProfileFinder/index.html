@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <main>
+        <header class="flex">
+            <a href="#">
+            <img src="images/github-icon.png" alt="Icono Github">
+            <h1>Github Profile Finder</h1>
+            </a>
+            <p>
+                Un buscador que te ayudará a encontrar perfiles de usuarios de Github por su nombre.
+            </p>
+
+        </header>
+        <section class="busqueda flex">
+            <form action="">
+                <label for="user" id="userlbl">Usuario</label>
+                <input type="text" id="user" >
+                <input type="button" id="buscar" value="Buscar">
+            </form>
+
+        </section>
+        <section class="resultado flex">
+            <img src="images/foto.png" alt="Imagen de usuario">
+            <div class="descripcion">
+                <p>Nombre:</p>
+                <p>Ubicación:</p>
+                <p>Bio:</p>
+            </div>
+
+        </section>
+        <section class="no-encontrado flex">
+            <div class="ups">¡UPS!</div>
+            <p>ERROR 404. Prueba con otro nombre de usuario.</p>
+
+        </section>
+        <footer class="flex">
+            <p>Hecho por <a href="https://github.com/josecavera">José C.</a> - 2021</p>
+
+        </footer>
+    </main>
+</body>
+</html>
